@@ -10,4 +10,5 @@ The Web Speech Recognition API can be used to convert speech into text and displ
 
 ![image](https://github.com/amf17/Task_3_W_E_B/assets/139582388/f56978f1-10c1-415d-8498-3f04b6ced9dd)
 
-![image](https://github.com/amf17/Task_3_W_E_B/assets/139582388/4615e072-94e1-43e4-b49f-96d0874bc925)
+![image](https://github.com/amf17/Task_3_W_E_B/assets/139582388/4287462b-b78e-4205-8809-85dc142d65e0)
+
