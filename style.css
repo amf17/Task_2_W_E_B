@@ -1,0 +1,75 @@
+/* Apply border-box box-sizing to all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    background-image: url("wp2239808-wallpaper-gif.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333; /* Darker text color for better readability */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5rem;
+    color: #4a2c6d;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(251, 251, 251, 0.4); /* Add a subtle text shadow */
+}
+
+/* Textarea styles */
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    border: 2px solid #41095d;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Button and Select styles */
+button, select {
+    padding: 12px 20px;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #41095d; /* Blue color for buttons */
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, select:hover {
+    background: #41095d;
+    color: #fff;
+}
+
+/* Remove default browser styles for select element */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("select-arrow.png") no-repeat right center; /* Custom select arrow */
+    background-size: 20px;
+    padding-right: 30px; /* Space for the custom arrow */
+}
